@@ -1,0 +1,47 @@
+body{
+ background-color: rgba(187, 221, 235, 0.815)
+
+}
+.container {
+    width: 300px;
+    margin: 40px auto;
+    padding: 40px;
+    border: 3px solid #ccc;
+    border-radius: 12px;
+    background-color: rgb(250, 235, 215);
+    border-color: rgba(0, 0, 0, 0.664);
+}
+.button-container {
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+#inputField {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #ccc;
+    text-align: let;
+    border-color: rgba(0, 0, 0, 0.658);
+}
+
+#pushBtn, #popBtn {
+    padding: 10px 20px;
+    background-color: #85afdb;
+    color: rgb(31, 27, 27);
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+#itemList {
+    list-style: none;
+    padding: 0;
+}
+
+#itemList li {
+    padding: 10px;
+    border: 1px solid #413939;
+    background-color: #f8f2f2
+}
